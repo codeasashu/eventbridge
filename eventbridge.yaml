@@ -1,0 +1,8 @@
+sources:
+  acs:
+    subscriptions:
+      - httpbin
+destinations:
+  httpbin:
+    name: HTTP Bin
+    url: https://httpbin.org/post
